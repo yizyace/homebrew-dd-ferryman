@@ -1,11 +1,11 @@
 class DdFerryman < Formula
   desc "Local DNS + HTTPS for .test domains on macOS"
   homepage "https://github.com/yizyace/dd_ferryman"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   url "https://github.com/yizyace/dd_ferryman/releases/download/v#{version}/dd-ferryman-#{version}-universal-apple-darwin.tar.gz"
-  sha256 "17007e57e8a201dc3e041a0b06c1484b017e621cb1b9ea8154b9b24dbfc98fcf"
+  sha256 "e7aa9543cd8a39834f4037651a12e02db61ca4c15465aa45266aa7d9f7b17c6b"
 
   depends_on :macos
 
